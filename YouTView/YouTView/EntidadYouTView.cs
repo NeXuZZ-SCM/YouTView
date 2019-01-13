@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace YouTView
 {
-    class EntidadYouTView
-    {
-    }
     public class PageInfo
     {
         public int totalResults { get; set; }
@@ -68,7 +65,7 @@ namespace YouTView
         public Snippet snippet { get; set; }
     }
 
-    public class Example
+    public class ApiYoutube
     {
         public string kind { get; set; }
         public string etag { get; set; }
